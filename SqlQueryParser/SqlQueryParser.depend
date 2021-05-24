@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1621696199 source:d:\private\gcc workspace\sqlqueryparser\src\query.cpp
+	"Query.h"
+
+1621696314 d:\private\gcc workspace\sqlqueryparser\include\query.h
+	<iostream>
+
+1621835600 source:d:\private\gcc workspace\sqlqueryparser\src\queryparser.cpp
+	"QueryParser.h"
+
+1621846447 d:\private\gcc workspace\sqlqueryparser\include\queryparser.h
+	"IQuery.h"
+	"QueryFactory.h"
+
+1621783923 source:d:\private\gcc workspace\sqlqueryparser\src\iquery.cpp
+	"IQuery.h"
+
+1621846315 d:\private\gcc workspace\sqlqueryparser\include\iquery.h
+	<iostream>
+
+1621782655 source:d:\private\gcc workspace\sqlqueryparser\src\parse.cpp
+	"Parse.h"
+	<cctype>
+	<algorithm>
+
+1621843325 d:\private\gcc workspace\sqlqueryparser\include\parse.h
+	<iostream>
+
+1621786418 source:d:\private\gcc workspace\sqlqueryparser\src\deletequery.cpp
+	"DeleteQuery.h"
+	"Parse.h"
+
+1621846584 d:\private\gcc workspace\sqlqueryparser\include\deletequery.h
+	"IQuery.h"
+
+1621844406 d:\private\gcc workspace\sqlqueryparser\include\queryfactory.h
+	"IQuery.h"
+
+1621786179 source:d:\private\gcc workspace\sqlqueryparser\src\selectquery.cpp
+	"SelectQuery.h"
+	"Parse.h"
+
+1621844679 d:\private\gcc workspace\sqlqueryparser\include\selectquery.h
+	"IQuery.h"
+	<vector>
+
+1621784219 source:d:\private\gcc workspace\sqlqueryparser\src\queryfactory.cpp
+	"QueryFactory.h"
+	"SelectQuery.h"
+	"DeleteQuery.h"
+	"Parse.h"
+

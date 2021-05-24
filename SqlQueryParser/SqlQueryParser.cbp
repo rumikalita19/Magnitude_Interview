@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SqlQueryParser" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SqlQueryParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SqlQueryParser" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/DeleteQuery.h" />
+		<Unit filename="include/IQuery.h" />
+		<Unit filename="include/Parse.h" />
+		<Unit filename="include/QueryFactory.h" />
+		<Unit filename="include/QueryParser.h" />
+		<Unit filename="include/SelectQuery.h" />
+		<Unit filename="src/DeleteQuery.cpp" />
+		<Unit filename="src/IQuery.cpp" />
+		<Unit filename="src/Parse.cpp" />
+		<Unit filename="src/QueryFactory.cpp" />
+		<Unit filename="src/QueryParser.cpp" />
+		<Unit filename="src/SelectQuery.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
